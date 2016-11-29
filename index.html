@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body>
+    <div id="gameBoard">
+        <div id="scorePlayer1" class="player1">
+            <p class="playerName"></p>
+            <p class="playerSymbol">X</p>
+            <p class="scoreText"></p>
+        </div>
+        <div id="scorePlayer2" class="player2">
+            <p class="playerName"></p>
+            <p class="playerSymbol">O</p>
+            <p class="scoreText"></p>
+        </div>
+        <div id="giveUpButton">
+            <input type="button" value="Abandonner" onclick="giveUp()">
+        </div>
+        <div id="tableBoard">
+            <table></table>
+        </div>
+    </div>
+    <div id="resultWindow">
+        <p id="resultMessage"></p>
+        <input type="button" value="Rejouer" onclick="replay()">
+    </div>
+    <script src="JS/tictactoe.js"></script>
+</body>
+
+
+
+
+</html>
